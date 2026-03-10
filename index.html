@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jack McLean - AI Developer</title>
+  <meta name="description" content="Jack McLean - AI Developer / Software Engineer. Portfolio, links, and contact." />
+  <link rel="stylesheet" href="stylesheet/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#top">Skip to main content</a>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Home">
+      <img class="brand-logo" src="assets/logo-mark.svg" alt="" hidden />
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text">Jack McLean</span>
+    </a>
+
+    <nav id="primary-nav" class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#journey">Journey</a>
+      <a href="#links">Links</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="pill">AI | Full-Stack | NLP</p>
+
+          <h1 class="headline">
+            Building practical AI tools <span class="glow">that ship</span>.
+          </h1>
+
+          <p class="subhead">
+            <span id="typewriter" data-phrases="AI Developer, NLP + spaCy, Python + JS, Cloud + Azure" aria-live="polite"></span>
+            <span class="caret" aria-hidden="true">|</span>
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#portfolio">See portfolio</a>
+            <a class="btn" href="#contact">Contact me</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat card">
+              <div class="stat-k">NLP</div>
+              <div class="stat-v">spaCy | embeddings | evaluation</div>
+            </div>
+            <div class="stat card">
+              <div class="stat-k">Full-stack</div>
+              <div class="stat-v">HTML/CSS/JS | React-ready</div>
+            </div>
+            <div class="stat card">
+              <div class="stat-k">Cloud</div>
+              <div class="stat-v">Azure | deployments</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="portrait card">
+            <img src="assets/Profile pic 2.jpg" alt="Headshot of Jack McLean" />
+            <div class="portrait-glow" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="hero-scroll">
+        <span class="dot" aria-hidden="true"></span>
+        <span class="muted">Scroll</span>
+      </div> -->
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="section-head">
+        <h2 class="h2">About me</h2>
+        <p class="muted">The Journey so far.</p>
+      </div>
+
+      <div class="grid-2 about-layout">
+        <article class="card pad">
+          <h3 class="h3">Hi - I'm Jack.</h3>
+          <p>
+            I'm a software developer focused on AI, NLP, and building clean user experiences.
+            I like work that blends product thinking with strong engineering fundamentals.
+          </p>
+          <p class="muted">
+            I started in music documentaries, then moved into AI development to build tools that feel modern,
+            fast, and human-friendly.
+          </p>
+
+          <div class="callouts">
+            <div class="callout">
+              <span class="callout-k">What I build</span>
+              <span class="callout-v">AI demos, web apps, internal tools, portfolios</span>
+            </div>
+            <div class="callout">
+              <span class="callout-k">What I value</span>
+              <span class="callout-v">Clarity, speed, maintainability, good UX</span>
+            </div>
+          </div>
+        </article>
+
+        <aside class="tech card">
+          <div class="tech-head">
+            <h3 class="h3">Toolbox</h3>
+            <p class="muted">Core platforms and languages I use to ship AI and web projects.</p>
+          </div>
+
+          <div class="logo-grid" aria-label="Technology logos with fallback text labels">
+            <div class="logo-slot" data-logo-src="assets/logos/azure.svg">
+              <img class="tech-logo" alt="Azure logo" loading="lazy" decoding="async" hidden />
+              <span>Azure</span>
+            </div>
+            <div class="logo-slot" data-logo-src="assets/logos/spacy.svg">
+              <img class="tech-logo" alt="spaCy logo" loading="lazy" decoding="async" hidden />
+              <span>spaCy</span>
+            </div>
+            <div class="logo-slot" data-logo-src="assets/logos/pytorch.svg">
+              <img class="tech-logo" alt="PyTorch logo" loading="lazy" decoding="async" hidden />
+              <span>PyTorch</span>
+            </div>
+            <div class="logo-slot" data-logo-src="assets/logos/python.svg">
+              <img class="tech-logo" alt="Python logo" loading="lazy" decoding="async" hidden />
+              <span>Python</span>
+            </div>
+            <div class="logo-slot" data-logo-src="assets/logos/javascript.svg">
+              <img class="tech-logo" alt="JavaScript logo" loading="lazy" decoding="async" hidden />
+              <span>JavaScript</span>
+            </div>
+            <div class="logo-slot" data-logo-src="assets/logos/html5.svg">
+              <img class="tech-logo" alt="HTML logo" loading="lazy" decoding="async" hidden />
+              <span>HTML</span>
+            </div>
+            <div class="logo-slot" data-logo-src="assets/logos/css3.svg">
+              <img class="tech-logo" alt="CSS logo" loading="lazy" decoding="async" hidden />
+              <span>CSS</span>
+            </div>
+            <div class="logo-slot" data-logo-src="assets/logos/git.svg">
+              <img class="tech-logo" alt="Git logo" loading="lazy" decoding="async" hidden />
+              <span>Git</span>
+            </div>
+            <div class="logo-slot" data-logo-src="assets/logos/react.svg">
+              <img class="tech-logo" alt="React logo" loading="lazy" decoding="async" hidden />
+              <span>React</span>
+            </div>
+            <div class="logo-slot" data-logo-src="assets/logos/nodejs.svg">
+              <img class="tech-logo" alt="Node logo" loading="lazy" decoding="async" hidden />
+              <span>Node</span>
+            </div>
+          </div>
+
+          <div class="micro">
+            <span class="chip">Azure DevOps</span>
+            <span class="chip">Flask</span>
+            <span class="chip">spaCy</span>
+            <span class="chip">PyTorch</span>
+            <span class="chip">SQL</span>
+          </div>
+        </aside>
+
+        <!-- Potential head shots, logos or and visuals section to be added in
+        <aside class="card pad">
+          <h3 class="h3">Headshots & visuals</h3>
+          <p class="muted">
+            Use this space for additional headshots, press images, or a "signature" AI-themed graphic.
+          </p>
+
+          <div class="thumbs">
+            <div class="thumb">
+              <img src="assets/headshot.jpg" alt="Headshot placeholder" />
+              <span class="thumb-label">Headshot slot</span>
+            </div>
+            <div class="thumb">
+              <img src="assets/bg-hero.jpg" alt="Futuristic background placeholder" />
+              <span class="thumb-label">Visual slot</span>
+            </div>
+          </div>
+        </aside>
+        -->
+      </div>
+    </section>
+
+    <section id="portfolio" class="section reveal">
+      <div class="section-head">
+        <h2 class="h2">Portfolio</h2>
+        <p class="muted">Add your projects here. Each card can link to GitHub, a live demo, or a case study.</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="project card">
+          <div class="project-top">
+            <div class="project-icon" aria-hidden="true">AI</div>
+            <div>
+              <h3 class="h3">AI Vocabulary Builder</h3>
+              <p class="muted tiny">spaCy | Python | Flask</p>
+            </div>
+          </div>
+
+          <p class="muted">
+            A vocabulary practice app with definitions, examples, and smart suggestions.
+          </p>
+
+          <div class="tag-row">
+            <span class="chip">spaCy</span>
+            <span class="chip">Flask</span>
+            <span class="chip">Python</span>
+          </div>
+
+          <div class="project-links">
+            <a class="btn" href="#" target="_blank" rel="noopener noreferrer" aria-label="AI Vocabulary Builder GitHub (opens in new tab)">GitHub</a>
+            <a class="btn primary" href="#" target="_blank" rel="noopener noreferrer" aria-label="AI Vocabulary Builder live demo (opens in new tab)">Live demo</a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <div class="project-top">
+            <div class="project-icon" aria-hidden="true">JS</div>
+            <div>
+              <h3 class="h3">AI Trivia Game</h3>
+              <p class="muted tiny">JavaScript | UI/UX</p>
+            </div>
+          </div>
+
+          <p class="muted">
+            A game-show style trivia experience with score tracking and dynamic feedback.
+          </p>
+
+          <div class="tag-row">
+            <span class="chip">JavaScript</span>
+            <span class="chip">UI</span>
+            <span class="chip">State</span>
+          </div>
+
+          <div class="project-links">
+            <a class="btn" href="#" target="_blank" rel="noopener noreferrer" aria-label="AI Trivia Game GitHub (opens in new tab)">GitHub</a>
+            <a class="btn primary" href="#" target="_blank" rel="noopener noreferrer" aria-label="AI Trivia Game live demo (opens in new tab)">Live demo</a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <div class="project-top">
+            <div class="project-icon" aria-hidden="true">KB</div>
+            <div>
+              <h3 class="h3">Nonprofit Chatbot</h3>
+              <p class="muted tiny">NLP | Knowledge base</p>
+            </div>
+          </div>
+
+          <p class="muted">
+            A chatbot that answers FAQs and routes users to resources. Built for maintainability.
+          </p>
+
+          <div class="tag-row">
+            <span class="chip">NLP</span>
+            <span class="chip">Python</span>
+            <span class="chip">Deployment</span>
+          </div>
+
+          <div class="project-links">
+            <a class="btn" href="#" target="_blank" rel="noopener noreferrer" aria-label="Nonprofit Chatbot GitHub (opens in new tab)">GitHub</a>
+            <a class="btn primary" href="#" target="_blank" rel="noopener noreferrer" aria-label="Nonprofit Chatbot case study (opens in new tab)">Case study</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="journey" class="section reveal">
+      <div class="section-head">
+        <h2 class="h2">Journey</h2>
+        <p class="muted">From storytelling in film to building intelligent systems.</p>
+      </div>
+
+      <div class="journey-grid">
+        <div class="journey-item card">
+          <div class="journey-year">Present</div>
+          <h3 class="h3">AI Developer & Software Engineer</h3>
+          <p class="muted">
+            Designing and building AI-powered tools, NLP applications, and full-stack web experiences.
+          </p>
+          <div class="tag-row">
+            <span class="chip">Python</span>
+            <span class="chip">spaCy</span>
+            <span class="chip">Azure</span>
+            <span class="chip">Full-Stack</span>
+          </div>
+        </div>
+
+        <div class="journey-item card">
+          <div class="journey-year">2024-2025</div>
+          <h3 class="h3">AI Developer Boot Camp</h3>
+          <p class="muted">
+            Intensive training in machine learning, NLP, and modern web development.
+          </p>
+          <div class="tag-row">
+            <span class="chip">ML</span>
+            <span class="chip">NLP</span>
+            <span class="chip">Flask</span>
+            <span class="chip">SQL</span>
+          </div>
+        </div>
+
+        <div class="journey-item card">
+          <div class="journey-year">Creative Career</div>
+          <h3 class="h3">Producer - Music Documentaries</h3>
+          <p class="muted">
+            Worked on major music documentaries featuring artists including Led Zeppelin, Jack White, Nas,
+            Willie Nelson, and Alabama Shakes.
+          </p>
+          <div class="tag-row">
+            <span class="chip">Leadership</span>
+            <span class="chip">Production</span>
+            <span class="chip">Storytelling</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="links" class="section reveal">
+      <div class="section-head">
+        <h2 class="h2">Links</h2>
+        <p class="muted">The key places people should visit first.</p>
+      </div>
+
+      <div class="link-cards">
+        <a class="link-card card" href="https://github.com/JackRM10" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile (opens in new tab)">
+          <div class="icon" aria-hidden="true">GH</div>
+          <div>
+            <div class="link-title">GitHub</div>
+            <div class="muted">Projects, experiments, and code samples</div>
+          </div>
+          <span class="arrow" aria-hidden="true">-&gt;</span>
+        </a>
+
+        <a class="link-card card" href="https://www.linkedin.com/in/jack-r-mclean/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile (opens in new tab)">
+          <div class="icon" aria-hidden="true">IN</div>
+          <div>
+            <div class="link-title">LinkedIn</div>
+            <div class="muted">Work history, collaborations, and updates</div>
+          </div>
+          <span class="arrow" aria-hidden="true">-&gt;</span>
+        </a>
+
+        <a class="link-card card" href="#" target="_blank" rel="noopener noreferrer" aria-label="Resume PDF (opens in new tab)">
+          <div class="icon" aria-hidden="true">CV</div>
+          <div>
+            <div class="link-title">Resume</div>
+            <div class="muted">One-page PDF</div>
+          </div>
+          <span class="arrow" aria-hidden="true">-&gt;</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="section-head">
+        <h2 class="h2">Contact</h2>
+        <p class="muted">Quick message - or use the email link.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card pad">
+          <h3 class="h3">Let's build something.</h3>
+          <p class="muted">
+            Email is the fastest:
+            <a class="inline" href="mailto:jack.mclean.academy@outlook.com">jack.mclean.academy@outlook.com</a>
+          </p>
+
+          <div class="contact-points">
+            <div class="point"><span class="dot2"></span> Freelance / contract</div>
+            <div class="point"><span class="dot2"></span> Full-time roles</div>
+            <div class="point"><span class="dot2"></span> AI prototypes / MVPs</div>
+          </div>
+        </div>
+
+        <form class="card pad form" aria-label="Contact form" action="mailto:jack.mclean.academy@outlook.com" method="post" enctype="text/plain">
+          <label>
+            <span>Name</span>
+            <input name="name" type="text" autocomplete="name" required />
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+
+          <button class="btn primary" type="submit">Send</button>
+          <!--<p class="muted tiny">Tip: later you can swap this to a form service for better UX.</p>-->
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="muted">(c) <span id="year"></span> Jack McLean</div>
+      <a class="inline muted" href="#top">Back to top</a>
+    </footer>
+  </main>
+
+  <script src="js/portfolio_main.js"></script>
+</body>
+</html>
