@@ -457,6 +457,31 @@ input:focus, textarea:focus{
   background: rgba(255,255,255,.18);
   border: 1px solid rgba(255,255,255,.14);
 }
+#contact .grid-2{
+  align-items: stretch;
+}
+#contact .grid-2 > .card{
+  min-height: 440px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contact-headshot .portrait{
+  margin-top: 12px;
+  padding: 0;
+  flex: 1;
+  display: grid;
+  place-items: center;
+  border-radius: calc(var(--radius) - 8px);
+}
+.contact-headshot .portrait img{
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: contain;
+  object-position: center top;
+  transform: translateY(-10px);
+}
 
 .footer{
   max-width: var(--max);
